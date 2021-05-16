@@ -97,3 +97,78 @@ body {
   border-bottom: 2px solid #FB565A;
   padding-bottom: 4px;
 }
+
+/*---Footer---*/
+
+.footer {
+  padding-bottom: 68px;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 68px;
+  align-items: center;
+}
+
+.socials__item {
+  display: flex;
+  float: left;
+  margin-right: 9px;
+}
+
+.socials__item--vk::after {
+    content: " ";
+    background: url(../img/svg/vk-icon.svg);
+    background-repeat: no-repeat;
+    margin-left: 27px;
+    margin-top: 33.5px;
+    position: absolute;
+    width: 81px;
+    height: 81px;
+}
+.socials__item--fb::after {
+  content: " ";
+  background: url(../img/svg/fb-icon.svg);
+  background-repeat: no-repeat;
+  margin-left: 34px;
+  margin-top: 29.5px;
+  position: absolute;
+  width: 81px;
+  height: 81px;
+}
+.socials__item--in::after {
+  content: " ";
+  background: url(../img/svg/insta.svg);
+  background-repeat: no-repeat;
+  margin-left: 29.5px;
+  margin-top: 29.5px;
+  position: absolute;
+  width: 81px;
+  height: 81px;
+}
+.link-social {
+    width: 81px;
+    height: 81px;
+    border-radius: 50%;
+    background: #E1E1E1;
+    position: relative;
+}
+
+.discount {
+  padding-right: 60.5px;
+}
+
+.discount-title {
+  font-family: 'RobotoBold', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.discount-sale {
+  padding-top: 10px;
+  color: #444444;
+  font-size: 16px;
+  line-height: 22px;
+}
