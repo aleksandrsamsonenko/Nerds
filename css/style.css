@@ -25,6 +25,8 @@ body {
     line-height: 24px;
 }
 
+/*---Header---*/
+
 .header {
     background: #EEEEEE;
 }
@@ -36,7 +38,7 @@ body {
     padding: 48.9px 0 9px 0;
 }
 
-.logo__link:active {
+.logo-link__images:active {
   opacity: 0.3;
 }
 
@@ -48,11 +50,11 @@ body {
     display: flex;
 }
 
-.menu__item {
+.item {
     margin: 0 22.5px;
 }
 
-.menu__list-link {
+.item__link {
     text-transform: uppercase;
     color: #000000;
     font-family: 'RobotoMedium', sans-serif;
@@ -61,16 +63,16 @@ body {
     line-height: 30px;
 }
 
-.menu__list-link:hover {
+.item__link:hover {
     color: #FB565A;
 }
 
-.menu__list-link:active {
+.item__link:active {
     color: #000000;
     opacity: 0.3;
 }
 
-.basket__link {
+.link-basket {
     text-transform: uppercase;
     color: #000000;
     font-family: 'RobotoMedium', sans-serif;
@@ -80,23 +82,25 @@ body {
     padding: 12px 40px 0 0;
 }
 
-.basket__link:hover {
+.link-basket:hover {
     color: #FB565A;
 }
 
-.basket__link-title:active {
+.link-basket__title:active {
     color: #000000;
     opacity: 0.3;
 }
 
-.basket__link-icons {
+.link-basket__icons {
     margin:0 24.8px 0 0;
 }
 
-.menu__active {
+.item_active {
   border-bottom: 2px solid #FB565A;
   padding-bottom: 4px;
 }
+
+/*--/Header--*/
 
 /*---Footer---*/
 
@@ -121,11 +125,14 @@ body {
     content: " ";
     background: url(../img/svg/vk-icon.svg);
     background-repeat: no-repeat;
-    margin-left: 27px;
-    margin-top: 33.5px;
     position: absolute;
-    width: 81px;
-    height: 81px;
+    /*left: 385px;
+    top: 230px;*/
+    margin-left: 26px;
+    margin-top: 32px;
+    width: 30px;
+    height: 20px;
+    
 }
 .socials__item--fb::after {
   content: " ";
@@ -134,8 +141,8 @@ body {
   margin-left: 34px;
   margin-top: 29.5px;
   position: absolute;
-  width: 81px;
-  height: 81px;
+  width: 20px;
+  height: 26px;
 }
 .socials__item--in::after {
   content: " ";
@@ -144,8 +151,8 @@ body {
   margin-left: 29.5px;
   margin-top: 29.5px;
   position: absolute;
-  width: 81px;
-  height: 81px;
+  width: 22px;
+  height: 22px;
 }
 .link-social {
     width: 81px;
@@ -172,3 +179,5 @@ body {
   font-size: 16px;
   line-height: 22px;
 }
+
+/*--/Footer--/
