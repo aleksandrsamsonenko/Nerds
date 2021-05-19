@@ -216,7 +216,7 @@ input:checked + label::after {
   border-bottom: 2px solid #EEEEEE;
 }
 
-.productions__title {
+.sites__title, .applications__title, .presentations__title {
   font-family: 'RobotoBold', sans-serif;
   font-weight: 700;
   font-size: 24px;
@@ -226,7 +226,7 @@ input:checked + label::after {
   padding-top: 25px;
   padding-bottom: 16px;
 }
-.productions__text {
+.sites__text, .applications__text, .presentations__text {
   font-family: 'RobotoRegular', sans-serif;
   font-weight: 400;
   color: #283136;
