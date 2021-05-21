@@ -451,9 +451,66 @@ input:checked + label::after {
   opacity: 0.1;
 }
 
-
-
 /*--/examples--*/
+
+/*--Map--*/
+.map__inner {
+  background: url(../img/bg/map.png);
+  display: flex;
+  height: 416px;
+  padding-top: 54px;
+  padding-left: 140px;
+}
+.adress {
+  position: relative;
+  top: 20px;
+  width: 319px;
+  height: 308px;
+  background-color: #FFFFFF;
+}
+
+.adress__btn {
+  text-transform: uppercase;
+  color: #ffff;
+  background-color: #FB565A;
+  border-radius: 3px;
+  padding: 17px 44px 15px;
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+.adress__btn:hover {
+  background-color: #E74246;
+}
+.adress__btn:active {
+  border-color: #D7373B;
+  opacity: 0.3;
+}
+.adress__link--text,
+.adress__phone {
+  color: #666666;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  margin-left: 50px;
+  margin-bottom: 15px;
+}
+.adress__title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 49px;
+  margin-left: 50px;
+  margin-bottom: 22px;
+}
+
+.marker {
+  padding-left: 364px;
+  padding-top: 32px;
+}
+
+
+/*--/Map--*/
 
 /*---Footer---*/
 
