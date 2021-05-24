@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/catalog.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <title>Catalog</title>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <a class="logo-link" href="#" >
+          <img class="logo-link__images" src="img/logo/nerds-logo.svg" alt="logo">
+        </a>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="item"><a class="item__link" href="index.html">Студия</a></li>
+            <li class="item"><a class="item__link" href="#">Клиенты</a></li>
+            <li class="item item_active"><a class="item__link" href="#">Магазин</a></li>
+            <li class="item"><a class="item__link" href="#">Контакты</a></li>
+          </ul>
+        </nav>
+        <a class="link-basket " href="#"><img class="link-basket__icons" src="img/svg/basket.svg" alt="basket"><span class="link-basket__title">Корзина</span></a>
+      </div>
+    </div>
+  </header>
+  <section class="top">
+    <div class="container">
+      <div class="top-header">
+        <h1 class="shop__title">Магазин готовых шаблонов</h1>
+      </div>
+    </div>
+  </section>
+
+  <section class="central">
+    <div class="container">
+      <div class="central__inner">
+        <div class="sidebar">
+          <div class="filter-range">
+            <div class="filter-range-title">Стоимость :</div>
+              
+              <div class="range-controls">
+                <div class="scale">
+                  <div class="bar"></div>
+                </div>
+                <div class="range-toggle range-toggle-min"></div>
+                <div class="range-toggle range-toggle-max"></div>
+              </div>
+              <div class="price-controls">
+                <label class="label min-price">от <input class="input" type="text" name="min-price" value="0"></label>
+                <label class="label max-price">до <input class="input" type="text" name="max-price" value="15000"></label>
+              </div>
+
+            </div>
+          <div class="grid">
+            <p class="grid__item">Сетка:</p>
+            <div class="selector">
+                <input class="selector__input" type="radio" id="first-slide" name="slide" value="1" checked>
+                <label class="selector__label" for="first">Адаптивная</label>
+    
+                <input class="selector__input" type="radio" id="second-slide" name="slide" value="2">
+                <label class="selector__label" for="second">Фиксированная</label>
+    
+                <input class="selector__input" type="radio" id="third-slide" name="slide" value="3">
+                <label class="selector__label" for="third">Резиновая</label>
+            </div>  
+          </div>
+          <div class="features">
+              <p class="features__item">Особенности:</p>
+
+          </div>
+      
+        </div>
+      
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+  <section class="map">
+    <div class="container">
+      <div class="map__inner">
+        <div class="adress">
+          <h2 class="adress__title">NЁRDS DESIGN STUDIO</h2>
+          <a class="adress__link" href="#" ><p class="adress__link--text">191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p></a>
+          <a class="adress__phone" href="tel:78122757575">тел. +7 (812) 275-75-75</a>
+          <a class="adress__btn" href="#">Напишите нам</a>
+        </div>
+        <div class="marker">
+          <a class="marker__link" href="#"><img class="marker__link--img" src="img/bg/map-marker.png" alt="map-marker" ></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+          <ul class="socials">
+            <li class="list list--vk">
+              <a class="list__link" href="#"></a>
+            </li>
+
+            <li class="list list--fb">
+              <a class="list__link" href="#"></a>
+            </li>
+
+            <li class="list list--in">
+              <a class="list__link" href="#"></a>
+            </li>
+          </ul>
+        <div class="discount">
+          <h2 class="discount__title">Давайте дружить, это выгодно!</h2>
+          <p class="discount__text">Скидка 10% для друзей из социальных сетей.</p>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+</body>
+</html>

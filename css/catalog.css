@@ -1,0 +1,418 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+::before {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1220px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+body {
+  color: #000000;
+  font-family: 'RobotoRegular', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+/*---Header---*/
+
+.header {
+  background: #EEEEEE;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 48.9px 0 0 0;
+}
+
+.logo-link__images:active {
+opacity: 0.3;
+}
+
+.menu {
+padding: 16px 43px 0px 0px;
+}
+
+.menu__list {
+  display: flex;
+}
+
+.item {
+  margin: 0 22.5px;
+}
+
+.item__link {
+  text-transform: uppercase;
+  color: #000000;
+  font-family: 'RobotoMedium', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.item__link:hover {
+  color: #FB565A;
+}
+
+.item__link:active {
+  color: #000000;
+  opacity: 0.3;
+}
+
+.link-basket {
+  text-transform: uppercase;
+  color: #000000;
+  font-family: 'RobotoMedium', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  padding: 12px 40px 0 0;
+}
+
+.link-basket:hover {
+  color: #FB565A;
+}
+
+.link-basket__title:active {
+  color: #000000;
+  opacity: 0.3;
+}
+
+.link-basket__icons {
+  margin:0 24.8px 0 0;
+}
+
+.item_active {
+border-bottom: 2px solid #FB565A;
+padding-bottom: 4px;
+}
+
+/*--/Header--*/
+/*--section top--*/
+.top {
+  display: flex;
+  background: #EEEEEE;
+}
+.shop__title {
+  text-align: center;
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 55px;
+  margin: 72px 108px;
+}
+/*--/section top--*/
+
+.filter-range {
+  width: 205px;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.filter-range-title {
+  margin-bottom: 9px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.price-controls {
+  height: 36px;
+  margin-bottom: 54px;
+  font-size: 0;
+}
+
+
+
+.price-controls .label {
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  line-height: 38px;
+  cursor: pointer;
+}
+
+.price-controls .min-price,
+.price-controls .max-price {
+  width: 90px;
+  padding-left: 0px;
+}
+
+.price-controls .input {
+  display: flex;
+  flex-direction: row;
+  width: 80px;
+  height: 38px;
+  margin: 0;
+
+  color: inherit;
+  font: inherit;
+
+  background: #EEEEEE;
+  border: none;
+  outline: none;
+}
+
+.range-controls {
+  position: relative;
+  padding-top: 48px;
+  margin-bottom: 14px;
+}
+
+.range-controls .scale {
+  height: 2px;
+
+  background:  #EEEEEE;
+}
+
+.range-controls .bar {
+  width: 138px;
+  height: 2px;
+
+  background: #00CA74;
+}
+
+.range-toggle {
+  position: absolute;
+  top: 40px;
+
+  width: 4px;
+  height: 4px;
+
+  background: #ababab;
+  border: 8px solid #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
+  cursor: pointer;
+}
+
+.range-toggle:hover {
+  background: #1c4f80;
+}
+
+.range-toggle-min {
+  left: 0;
+}
+
+.range-toggle-max {
+  left: 138px;
+}
+
+
+
+.cost {
+  
+}
+
+.selector {
+  display: flex;
+  flex-direction: column;
+  /* position: absolute; */
+  bottom: 100px;
+  left: 127px;
+}
+
+.selector__label {
+  position:relative;
+  width:18px;
+  height:18px;
+  margin:4px;
+}
+.selector__input {
+  width:1px;
+  height:1px;
+  
+}
+.selector__label::febore {
+  display:none;
+}
+.selector__label::before {
+  position:absolute;
+  top:0;
+  left:0;
+  content: '';
+  width:18px;
+  height:18px;
+  border-radius:10px;
+  border: 2px solid #4D4D4D;
+  background:#FFFFFF;
+}
+.selector__input:checked + label::after {
+  display:block;
+  position:absolute;
+  top:5px;
+  left:5px;
+  content: '';
+  width:8px;
+  height:8px;
+  border-radius:10px;
+  border: 3px solid #4D4D4D;
+  background:#ffff;
+}
+
+
+
+
+
+
+
+
+/*--Map--*/
+.map__inner {
+  background: url(../img/bg/map.jpg);
+  display: flex;
+  height: 416px;
+  padding-top: 54px;
+  padding-left: 140px;
+}
+.adress {
+  position: relative;
+  top: 20px;
+  width: 319px;
+  height: 308px;
+  background-color: #FFFFFF;
+}
+
+.adress__btn {
+  text-transform: uppercase;
+  color: #ffff;
+  background-color: #FB565A;
+  border-radius: 3px;
+  padding: 17px 44px 15px;
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+.adress__btn:hover {
+  background-color: #E74246;
+}
+.adress__btn:active {
+  border-color: #D7373B;
+  opacity: 0.3;
+}
+.adress__link--text,
+.adress__phone {
+  color: #666666;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  margin-left: 50px;
+  margin-bottom: 15px;
+}
+.adress__title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 49px;
+  margin-left: 50px;
+  margin-bottom: 22px;
+}
+
+.marker {
+  padding-left: 364px;
+  padding-top: 32px;
+}
+
+
+/*--/Map--*/
+
+/*---Footer---*/
+
+.footer {
+  padding-bottom: 68px;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 68px;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  float: left;
+  margin-right: 9px;
+}
+
+.list__link:hover {
+  background-color: #E74246;
+}
+
+.list__link:active {
+  background: linear-gradient(0deg, #D7373B, #D7373B), #FFFFFF;
+  box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
+  opacity: 0.8;
+}
+
+.list--vk::after {
+    content: " ";
+    background: url(../img/svg/vk-icon.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    /*left: 385px;
+    top: 230px;*/
+    margin-left: 26px;
+    margin-top: 32px;
+    width: 30px;
+    height: 20px;
+}
+
+.list--fb::after {
+  content: " ";
+  background: url(../img/svg/fb-icon.svg);
+  background-repeat: no-repeat;
+  margin-left: 34px;
+  margin-top: 29.5px;
+  position: absolute;
+  width: 20px;
+  height: 26px;
+}
+.list--in::after {
+  content: " ";
+  background: url(../img/svg/insta.svg);
+  background-repeat: no-repeat;
+  margin-left: 29.5px;
+  margin-top: 29.5px;
+  position: absolute;
+  width: 22px;
+  height: 22px;
+}
+.list__link {
+    width: 81px;
+    height: 81px;
+    border-radius: 50%;
+    background: #E1E1E1;
+    position: relative;
+}
+
+.discount {
+  padding-right: 60.5px;
+}
+
+.discount__title {
+  font-family: 'RobotoBold', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.discount__text {
+  padding-top: 10px;
+  color: #444444;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+/*--/Footer--/
