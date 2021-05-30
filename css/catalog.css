@@ -121,10 +121,6 @@ padding-bottom: 4px;
   
 }
 
-.sidebar {
-  margin-bottom: 2038px;
-}
-
 .filter-range {
   width: 205px;
   color: #000;
@@ -542,6 +538,7 @@ padding-bottom: 4px;
  display: flex;
  margin-left: 130px;
  margin-top: 55px;
+ margin-bottom: 60px;
 }
 .switch__list {
  display: flex;
@@ -567,7 +564,7 @@ padding-bottom: 4px;
   box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
 }
 .page__active {
-  padding: 14px 20px;
+  padding: 14px 18px;
   background: rgba(0, 0, 0, 0.0001);
   border: 3px solid #DBDBDB;
   box-sizing: border-box;
