@@ -454,7 +454,6 @@ padding-bottom: 4px;
   margin-left: 70px;
   position: relative;
 }
-
 .products__header::before {
   content: "";
   background-color: #EEE;
