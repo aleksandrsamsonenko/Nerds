@@ -467,7 +467,7 @@ padding-bottom: 4px;
 
 .products__header:hover::before {
   background: #4D4D4D;
-  
+  transition: 0.4s;
 }
 
 .products__header::after {
