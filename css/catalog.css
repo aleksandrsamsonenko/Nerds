@@ -464,8 +464,8 @@ padding-bottom: 4px;
   bottom: 94%;
   left: 0px;
 }
-.layout__img:hover
-.products__header {
+
+.products__header:hover::before {
   background: #4D4D4D;
   
 }
