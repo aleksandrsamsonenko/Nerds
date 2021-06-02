@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="./catalog.html">
   <title>Nёrd's</title>
 </head>
 <body>
@@ -43,15 +44,15 @@
           <div class="slider__item">
             <img class="slider__images" src="img/bg/slider-bg.png" alt="slider">
           </div>
-          <div class="slider-selector">
-            <input type="radio" id="first-slide" name="slide" value="1" checked>
-            <label for="first-slide"></label>
+          <div class="slider__selector">
+            <input class="slider__selector--input" type="radio" id="first-slide" name="slide" value="1" checked>
+            <label class="slider__selector--label" for="first-slide"></label>
 
-            <input type="radio" id="second-slide" name="slide" value="2">
-            <label for="second-slide"></label>
+            <input class="slider__selector--input" type="radio" id="second-slide" name="slide" value="2">
+            <label class="slider__selector--label" for="second-slide"></label>
 
-            <input type="radio" id="third-slide" name="slide" value="3">
-            <label for="third-slide"></label>
+            <input class="slider__selector--input" type="radio" id="third-slide" name="slide" value="3">
+            <label class="slider__selector--label" for="third-slide"></label>
         </div>
 
         </div>
@@ -147,10 +148,41 @@
           <h2 class="adress__title">NЁRDS DESIGN STUDIO</h2>
           <a class="adress__link" href="#" ><p class="adress__link--text">191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p></a>
           <a class="adress__phone" href="tel:78122757575">тел. +7 (812) 275-75-75</a>
-          <a class="adress__btn" href="#">Напишите нам</a>
+          <a class="adress__btn" href="#adress">Напишите нам</a>
         </div>
         <div class="marker">
           <a class="marker__link" href="#"><img class="marker__link--img" src="img/bg/map-marker.png" alt="map-marker" ></a>
+        </div>
+
+        <div class="popup" id="adress">
+          <div class="wrapper">
+            <div class="popup__title">
+              <h2 class="popup__title--write">Напишите нам</h2>
+              <a class="popup__title--exit" href="#"></a>
+            </div>
+            <form class="forms"  method="post">
+              <div class="forms__list">
+                <div class="enter">
+                  <div class="enter__name">
+                    <label class="enter__name--title" for="name">Ваше имя:</label>
+                    <input class="enter__name--text" type="text" id="name" name="user_name" value="Имя Фамилия">
+                  </div>
+                  
+                  <div class="enter__mail">
+                    <label class="enter__mail--title" for="mail">Ваш email:</label>
+                    <input class="enter__mail--text" type="email" id="mail" name="user_mail" value="email@example.com">
+                  </div>
+                  
+                </div>
+                <div class="message">
+                  <label class="message__title" for="msg">Текст письма:</label>
+                  <textarea class="message__text" id="msg" name="user_message">В свободной форме</textarea>
+                </div>
+              </div>
+            </form>
+            <a class="send__btn" href="#">Отправить</a>
+
+          </div>
         </div>
       </div>
     </div>
