@@ -650,7 +650,107 @@ padding-bottom: 4px;
 
 
 /*--/Map--*/
+/*--popup--*/
 
+.popup:target {
+  top: 2500px;
+  position: absolute;
+  width: 960px;
+  height: 590px;
+  background: #FFFFFF;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.4);
+}
+.wrapper {
+  margin: 63px 99px 84px 100px;
+}
+.popup__title {
+  display: flex;
+  justify-content: space-between;
+}
+.popup__title--write {
+  margin-bottom: 39px;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #000000;
+}
+.popup__title--exit {
+  position: relative;
+  margin-top: 21px;
+  
+}
+.popup__title--exit:hover {
+  color: #FB565A;
+}
+.popup__title--exit::before {
+  content: "";
+  position: absolute;
+  height: 21px;
+  width: 2px;
+  border-radius: 30px;
+  background-color: #FB565A;
+  opacity: 0.3;
+  transform: rotate(45deg);
+  left: 9px;
+  right: 5px;
+}
+.popup__title--exit::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 21px;
+  border-radius: 30px;
+  background-color: #FB565A;
+  transform: rotate(45deg);
+  opacity: 0.3;
+  top: 10px;
+}
+.enter {
+  display: flex;
+
+}
+.enter__name, 
+.enter__mail {
+  display: flex;
+  flex-flow: column wrap;
+  margin-right: 40px;
+  margin-bottom: 34px;
+}
+.enter__name--title,
+.enter__mail--title,
+.message__title {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+}
+.enter__name--text,
+.enter__mail--text {
+  border: 2px solid #D7DCDE;
+  color: #4444;
+  width: 360px;
+  height: 50px;
+}
+.message {
+  display: flex;
+  flex-flow: column wrap;
+}
+.message__text {
+  padding: 15px;
+  color: #4444;
+  width: 760px;
+  height: 118px;
+  border: 2px solid #D7DCDE;
+}
+.send__btn {
+  text-transform: uppercase;
+  color: #ffff;
+  background-color: #FB565A;
+  border-radius: 3px;
+  padding: 17px 83px 15px;
+  position: relative;
+  top: 50px;
+}
+/*--/popup--*/
 /*---Footer---*/
 
 .footer {
