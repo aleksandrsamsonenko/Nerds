@@ -1,0 +1,229 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+::before {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1220px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+body {
+  color: #000000;
+  font-family: "OpensansRegular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/*--Footet--*/
+.footer {
+  background-color: #464646;
+  width: 100%;
+  height: 323px;
+}
+.inner {
+  display: flex;
+  justify-content: space-between;
+}
+.logo-link {
+  font-family: "GilroyextraBold", sans-serif;
+  font-weight: 800;
+  font-size: 50px;
+  color: #ffc600;
+  margin-top: 65px;
+}
+
+.inner__footer {
+  margin-bottom: 30px;
+}
+.inner__footer--list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin-right: 40px;
+  margin-top: 65px;
+}
+.item__user,
+.item__compare,
+.item__basket {
+  opacity: 0.7;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  line-height: 36px;
+  font-weight: 300;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  position: relative;
+}
+.item {
+  padding-left: 55px;
+  background-color: #464646;
+}
+.item__user::before {
+  content: "";
+  background: url(../img/svg/user.svg);
+  position: absolute;
+  width: 13px;
+  height: 12px;
+  color: #ffc600;
+  top: 3px;
+  left: -20px;
+}
+.item__compare::after {
+  content: "";
+  background: url(../img/svg/compare.svg);
+  position: absolute;
+  width: 13px;
+  fill: #ffc600;
+  height: 12px;
+  top: 5px;
+  left: -20px;
+}
+.item__basket::before {
+  content: "";
+  background: url(../img/svg/cart.svg);
+  position: absolute;
+  width: 13px;
+  height: 12px;
+  top: 5px;
+  left: -20px;
+}
+
+.adress__list {
+  display: flex;
+  list-style: none;
+}
+.advantage {
+  margin-bottom: 70px;
+}
+
+.advantage__deliveri,
+.advantage__quality,
+.advantage__contacts {
+  color: #ffffff;
+  padding-right: 38px;
+  font-family: "GilroyextraBold", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.33;
+  letter-spacing: 3.6px;
+}
+
+.adress {
+  display: flex;
+  justify-content: space-between;
+}
+.adress__list {
+  list-style: none;
+  margin-top: 5px;
+}
+.adress__title--link,
+.adress__phone--link {
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 2;
+}
+.adress__phone {
+  margin-right: 37px;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+}
+.social__list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.icons {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #7e7e7e;
+  position: relative;
+  margin-right: 12px;
+}
+
+.icons__fb {
+  position: relative;
+}
+.icons__fb::after {
+  content: "";
+  background: url(../img/svg/fb-icon.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  margin-left: 0px;
+  margin-top: 0px;
+  width: 12px;
+  height: 20px;
+  top: 5px;
+  left: 9px;
+}
+.icons__in {
+  position: relative;
+}
+.icons__in::after {
+  content: "";
+  background: url(../img/svg/insta.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  margin-left: 0px;
+  margin-top: 0px;
+  width: 32px;
+  height: 32px;
+  top: px;
+  left: px;
+}
+.icons__tv {
+  position: relative;
+}
+.icons__tv::after {
+  content: "";
+  background: url(../img/svg/tvit.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 12px;
+  height: 20px;
+  top: 5px;
+  left: 9px;
+}
+
+.social__decoration {
+  position: relative;
+}
+.social__decoration::after {
+  content: "";
+  width: 80px;
+  height: 7px;
+  display: block;
+  position: absolute;
+  top: 12px;
+  background-color: #ffc600;
+}
+.social__logo-academi {
+  position: relative;
+}
+.social__logo-academi::after {
+  content: "";
+  background: url(../img/svg/logo-html.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  color: #ffc600;
+  width: 50px;
+  height: 60px;
+  right: 22px;
+}
+/*--/Footet--*/

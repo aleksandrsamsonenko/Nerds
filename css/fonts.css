@@ -1,0 +1,39 @@
+@font-face {
+	font-family: "GilroyextraBold";
+	src: url("../fonts/GilroyextraBold/GilroyextraBold.eot");
+	src: url("../fonts/GilroyextraBold/GilroyextraBold.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/GilroyextraBold/GilroyextraBold.woff") format("woff"),
+			 url("../fonts/GilroyextraBold/GilroyextraBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "GilroyLight";
+	src: url("../fonts/GilroyLight/GilroyLight.eot");
+	src: url("../fonts/GilroyLight/GilroyLight.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/GilroyLight/GilroyLight.woff") format("woff"),
+			 url("../fonts/GilroyLight/GilroyLight.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "OpensansLight";
+	src: url("../fonts/OpensansLight/OpensansLight.eot");
+	src: url("../fonts/OpensansLight/OpensansLight.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/OpensansLight/OpensansLight.woff") format("woff"),
+			 url("../fonts/OpensansLight/OpensansLight.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "OpensansRegular";
+	src: url("../fonts/OpensansRegular/OpensansRegular.eot");
+	src: url("../fonts/OpensansRegular/OpensansRegular.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/OpensansRegular/OpensansRegular.woff") format("woff"),
+			 url("../fonts/OpensansRegular/OpensansRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
